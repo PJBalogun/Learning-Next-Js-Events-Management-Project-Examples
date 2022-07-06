@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import {getEventById} from '../../data/dummy-data'
+import {getEventById} from '../../helpers/api-util'
 
 import EventLogistics from "../../components/event-detail/event-logistics";
 import EventSummary from "../../components/event-detail/event-summary";
